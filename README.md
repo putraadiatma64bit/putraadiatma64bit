@@ -49,6 +49,85 @@ Complete ride-hailing mobile application with real-time GPS tracking, driver mat
 
 ---
 
+### 🛠️ Technical Expertise
+
+#### **Messaging & Event Streaming**
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
+![XMPP](https://img.shields.io/badge/XMPP-002B5C?style=flat&logoColor=white)
+
+Building real-time data pipelines and event-driven architectures with enterprise messaging systems.
+
+#### **Database & Data Management**
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat&logo=apache-cassandra&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+
+- **Relational**: MySQL/MariaDB with Galera Cluster for high availability
+- **NoSQL**: Cassandra for distributed, scalable data storage
+- **Caching**: Redis for performance optimization and queue management
+
+#### **Distributed Storage**
+![GlusterFS](https://img.shields.io/badge/GlusterFS-ED1C24?style=flat&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat&logo=ipfs&logoColor=white)
+
+Implementing fault-tolerant, distributed file systems and decentralized storage solutions.
+
+#### **Load Balancing & Reverse Proxy**
+![HAProxy](https://img.shields.io/badge/HAProxy-106da9?style=flat&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
+
+Designing high-performance load balancing and traffic management infrastructure.
+
+#### **AI & Computer Vision**
+![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat&logoColor=black)
+![OCR](https://img.shields.io/badge/EasyOCR-FF6B6B?style=flat&logoColor=white)
+
+Developing intelligent systems for object detection and optical character recognition.
+
+#### **Blockchain & Smart Contracts**
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+
+Building decentralized applications and smart contracts on Ethereum blockchain.
+
+#### **Security & Cryptography**
+![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=flat&logo=openssl&logoColor=white)
+
+- **Encryption**: AES (Symmetric), RSA (Asymmetric)
+- **Key Management**: GPG for secure communications
+- **Protocols**: OpenSSL for TLS/SSL implementations
+
+#### **Networking & Infrastructure**
+![Mikrotik](https://img.shields.io/badge/Mikrotik-293239?style=flat&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+Network automation via Mikrotik API and version control with Git.
+
+---
+
+### 📊 Core Competencies
+
+```text
+System Integration    ████████████████████░   95%
+Distributed Systems   ███████████████████░░   90%
+Message Queue Design  ████████████████████░   95%
+Database Clustering   ██████████████████░░░   85%
+Security & Encryption ███████████████████░░   90%
+```
+
+---
+
+### 🎯 Focus Areas
+
+- 🔄 **Event-Driven Architectures** - Designing scalable microservices with Kafka and RabbitMQ
+- 🗄️ **High Availability Systems** - Implementing database clusters and distributed storage
+- 🔐 **Secure Communications** - Cryptographic solutions and secure data transmission
+- 🌐 **System Interoperability** - Integrating heterogeneous systems and protocols
+- ⚡ **Performance Optimization** - Caching strategies and load balancing solutions
+  
 ## 📫 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/putra-adiatma-64bit/)
