@@ -108,25 +108,6 @@ Network automation via Mikrotik API and version control with Git.
 
 ---
 
-### 📊 Core Competencies
-
-```text
-System Integration    ████████████████████░   95%
-Distributed Systems   ███████████████████░░   90%
-Message Queue Design  ████████████████████░   95%
-Database Clustering   ██████████████████░░░   85%
-Security & Encryption ███████████████████░░   90%
-```
-
----
-
-### 🎯 Focus Areas
-
-- 🔄 **Event-Driven Architectures** - Designing scalable microservices with Kafka and RabbitMQ
-- 🗄️ **High Availability Systems** - Implementing database clusters and distributed storage
-- 🔐 **Secure Communications** - Cryptographic solutions and secure data transmission
-- 🌐 **System Interoperability** - Integrating heterogeneous systems and protocols
-- ⚡ **Performance Optimization** - Caching strategies and load balancing solutions
   
 ## 📫 Connect With Me
 
