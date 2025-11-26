@@ -34,7 +34,7 @@ High-performance billing system leveraging Elixir's concurrency model to handle 
 ---
 
 ### 3. E-Commerce Platform with Payment Gateway
-**Tech Stack:** Elixir Phoenix, Xendit Payment Gateway
+**Tech Stack:** Elixir Phoenix
 
 Full-featured e-commerce platform with integrated payment gateway, supporting multiple payment methods and real-time order tracking.
 
