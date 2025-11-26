@@ -20,7 +20,7 @@ Full-stack developer specializing in **Elixir Phoenix** & **Flutter** | Experien
 ### 1. Video Conference Platform with Payment Gateway
 **Tech Stack:** Elixir Phoenix, Flutter, Xendit Payment Gateway
 
-Real-time video conferencing application integrated with Xendit payment gateway for seamless subscription and payment processing.
+Real-time video conferencing application integrated with payment gateway for seamless subscription and payment processing.
 
 
 ---
@@ -36,7 +36,7 @@ High-performance billing system leveraging Elixir's concurrency model to handle 
 ### 3. E-Commerce Platform with Payment Gateway
 **Tech Stack:** Elixir Phoenix, Xendit Payment Gateway
 
-Full-featured e-commerce platform with integrated Xendit payment gateway, supporting multiple payment methods and real-time order tracking.
+Full-featured e-commerce platform with integrated payment gateway, supporting multiple payment methods and real-time order tracking.
 
 
 ---
