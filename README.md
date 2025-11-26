@@ -56,7 +56,7 @@ This project is a **CRUD Generator** designed to automatically create Create, Re
 
 ## Key Features
 
-- **Automatic code generation** for Models, Controllers, Livewire Components, and Views.  
+- **Automatic code generation** for Models, Controllers, Livewire Components and Views, the final output is a downloadable zip file to import into the provided admin panel. 
 - **Dynamic validation** that adapts to each field’s data type.  
 - **Ready-to-use UI** including form and table templates, fully customizable.  
 - **Clean and maintainable architecture**, allowing easy extension and modification.  
