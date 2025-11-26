@@ -49,6 +49,26 @@ Complete ride-hailing mobile application with real-time GPS tracking, driver mat
 
 ---
 
+### 5. CRUD Generator Laravel
+**Tech Stack:** Laravel 12 livewire
+
+This project is a **CRUD Generator** designed to automatically create Create, Read, Update, and Delete modules based on a predefined database table structure. Built with Laravel 12 and Livewire, it enables fast and interactive module generation without requiring full page reloads.
+
+## Key Features
+
+- **Automatic code generation** for Models, Controllers, Livewire Components, and Views.  
+- **Dynamic validation** that adapts to each field’s data type.  
+- **Ready-to-use UI** including form and table templates, fully customizable.  
+- **Clean and maintainable architecture**, allowing easy extension and modification.  
+- **Efficient workflow**, ideal for projects with many data entities or repetitive CRUD requirements.
+
+## Purpose
+
+This CRUD Generator accelerates development time in Laravel projects by reducing repetitive tasks and providing a solid, consistent structure for data management modules.
+
+
+---
+
 ### 🛠️ Technical Expertise
 
 #### **Messaging & Event Streaming**
