@@ -53,8 +53,7 @@ Complete ride-hailing mobile application with real-time GPS tracking, driver mat
 **Tech Stack:** Laravel 12 livewire
 
 This project is a **CRUD Generator** designed to automatically create Create, Read, Update, and Delete modules based on a predefined database table structure. Built with Laravel 12 and Livewire, it enables fast and interactive module generation without requiring full page reloads.
-👉 Coba aplikasinya di sini:  
-<a href="https://laragen.my.id" target="_blank" rel="noopener noreferrer">https://laragen.my.id</a>
+👉 Try the app here: https://laragen.my.id
 
 ## Key Features
 
