@@ -53,6 +53,7 @@ In practice, ERP becomes a *burden* instead of a tool.
 ### **2. Subscription-Based Video Conference Platform**  
 
 **Tech Stack:** Elixir Phoenix, Flutter, PostreSQL
+
 Real-time video conferencing application integrated with payment gateway for seamless subscription and payment processing. 
 
 ---
@@ -60,6 +61,7 @@ Real-time video conferencing application integrated with payment gateway for sea
 ### **3. Multi-Process Billing System**  
 
 **Tech Stack:** Elixir Phoenix 
+
 High-performance billing system leveraging Elixir's concurrency model to handle multiple billing processes simultaneously with fault tolerance.  
 
 ---
@@ -67,6 +69,7 @@ High-performance billing system leveraging Elixir's concurrency model to handle 
 ### **4. E-Commerce Platform with Integrated Payments**  
 
 **Tech Stack:** Elixir Phoenix, PostgreSQL 
+
 Full-featured e-commerce platform with integrated payment gateway, supporting multiple payment methods and real-time order tracking.  
 
 ---
@@ -74,6 +77,7 @@ Full-featured e-commerce platform with integrated payment gateway, supporting mu
 ### **5. Ride-Hailing Application**  
 
 **Tech Stack:** Flutter 
+
 Complete ride-hailing mobile application with real-time GPS tracking, driver matching algorithm, and seamless user experience.  
 
 ---
