@@ -1,140 +1,125 @@
-# Hi there, I'm **Putra Adiatma** 👋
+# Hi, I’m **Putra Adiatma** 👋  
 
-## 👨‍💻 About Me
+## 🧭 About Me  
 
-Full-stack developer specializing in **Elixir Phoenix** & **Flutter** | Experienced in building large-scale applications including ride-hailing, e-commerce & video real-time conferencing systems
+I help businesses **solve operational and scalability problems** by designing and building **reliable information systems**.  
 
----
+My focus is not on using many technologies, but on **choosing the right architecture and implementation** so systems are:
+- usable in real operations  
+- scalable as the business grows  
+- maintainable in the long term  
 
-## 🛠️ Tech Stack
-
-![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white) ![Phoenix](https://img.shields.io/badge/Phoenix-FD4F00?style=for-the-badge&logo=phoenixframework&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![CodeIgniter](https://img.shields.io/badge/CodeIgniter_4-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+I work end-to-end: **understanding business processes → translating them into system logic → delivering working software**.
 
 ---
 
-## 🚀 Featured Projects
+## 🎯 What I Do  
 
-### 1. Video Conference Platform with Payment Gateway
-**Tech Stack:** Elixir Phoenix, Flutter
+- Transform **manual or fragmented business processes** into integrated digital systems  
+- Design **transaction-critical systems** (billing, payments, sales, inventory)  
+- Build **real-time and high-concurrency applications** for growing businesses  
+- Reduce development and operational friction through **automation and system standardization**
 
-Real-time video conferencing application integrated with payment gateway for seamless subscription and payment processing.
-
-
----
-
-### 2. Billing Multi-Process System
-**Tech Stack:** Elixir Phoenix
-
-High-performance billing system leveraging Elixir's concurrency model to handle multiple billing processes simultaneously with fault tolerance.
-
+> Programming languages and frameworks are tools — **business outcomes are the goal**.
 
 ---
 
-### 3. E-Commerce Platform with Payment Gateway
-**Tech Stack:** Elixir Phoenix
+## 🚀 Selected Projects & Business Impact  
 
-Full-featured e-commerce platform with integrated payment gateway, supporting multiple payment methods and real-time order tracking.
+### **1. Lightweight ERP System for Growing Businesses**  
 
+**Tech Stack:** Elixir Phoenix, Rust, PostgreSQL  
 
----
+**Business Problem:**  
+Most ERP systems are **too complex, expensive, and skill-dependent**, making them difficult to adopt by small to mid-sized businesses.  
+In practice, ERP becomes a *burden* instead of a tool.
 
-### 4. Ride-Hailing Application
-**Tech Stack:** Flutter
+**Solution Delivered:**  
+- A **lightweight and modular ERP** focused on real business workflows  
+- Simple, intuitive interfaces that **non-technical users can understand and operate**  
+- Core ERP features implemented incrementally, without overwhelming users  
+- High-performance backend for transaction safety and long-term scalability  
 
-Complete ride-hailing mobile application with real-time GPS tracking, driver matching algorithm, and seamless user experience.
+**Business Impact:**  
+- ERP adoption becomes **easy and realistic**, not intimidating  
+- Businesses can start small and grow the system naturally  
+- Reduced dependency on highly specialized operators  
+- ERP feels like a **useful, enjoyable set of tools**, not a rigid enterprise  
 
-
----
-
-### 5. CRUD Generator Laravel
-**Tech Stack:** Laravel 12 livewire
-
-This project is a **CRUD Generator** designed to automatically create Create, Read, Update, and Delete modules based on a predefined database table structure. Built with Laravel 12 and Livewire, it enables fast and interactive module generation without requiring full page reloads.
-
-👉 Try the app here: https://laragen.my.id
-
-## Key Features
-
-- **Automatic code generation** for Models, Controllers, Livewire Components and Views, the final output is a downloadable zip file to import into the provided admin panel. 
-- **Dynamic validation** that adapts to each field’s data type.  
-- **Ready-to-use UI** including form and table templates, fully customizable.  
-- **Clean and maintainable architecture**, allowing easy extension and modification.  
-- **Efficient workflow**, ideal for projects with many data entities or repetitive CRUD requirements.
-
-## Purpose
-
-This CRUD Generator accelerates development time in Laravel projects by reducing repetitive tasks and providing a solid, consistent structure for data management modules.
-
+> This ERP is designed to be **used**, not just implemented.
 
 ---
 
-### 🛠️ Technical Expertise
+### **2. Subscription-Based Video Conference Platform**  
 
-#### **Messaging & Event Streaming**
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
-![XMPP](https://img.shields.io/badge/XMPP-002B5C?style=flat&logoColor=white)
-
-Building real-time data pipelines and event-driven architectures with enterprise messaging systems.
-
-#### **Database & Data Management**
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat&logo=apache-cassandra&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-
-- **Relational**: MySQL/MariaDB with Galera Cluster for high availability
-- **NoSQL**: Cassandra for distributed, scalable data storage
-- **Caching**: Redis for performance optimization and queue management
-
-#### **Distributed Storage**
-![GlusterFS](https://img.shields.io/badge/GlusterFS-ED1C24?style=flat&logoColor=white)
-![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat&logo=ipfs&logoColor=white)
-
-Implementing fault-tolerant, distributed file systems and decentralized storage solutions.
-
-#### **Load Balancing & Reverse Proxy**
-![HAProxy](https://img.shields.io/badge/HAProxy-106da9?style=flat&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
-
-Designing high-performance load balancing and traffic management infrastructure.
-
-#### **AI & Computer Vision**
-![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat&logoColor=black)
-![OCR](https://img.shields.io/badge/EasyOCR-FF6B6B?style=flat&logoColor=white)
-
-Developing intelligent systems for object detection and optical character recognition.
-
-#### **Blockchain & Smart Contracts**
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
-
-Building decentralized applications and smart contracts on Ethereum blockchain.
-
-#### **Security & Cryptography**
-![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=flat&logo=openssl&logoColor=white)
-
-- **Encryption**: AES (Symmetric), RSA (Asymmetric)
-- **Key Management**: GPG for secure communications
-- **Protocols**: OpenSSL for TLS/SSL implementations
-
-#### **Networking & Infrastructure**
-![Mikrotik](https://img.shields.io/badge/Mikrotik-293239?style=flat&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
-Network automation via Mikrotik API and version control with Git.
+**Tech Stack:** Elixir Phoenix, Flutter, PostreSQL
+Real-time video conferencing application integrated with payment gateway for seamless subscription and payment processing. 
 
 ---
 
-  
-## 📫 Connect With Me
+### **3. Multi-Process Billing System**  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/putra-adiatma-64bit/)
+**Tech Stack:** Elixir Phoenix 
+High-performance billing system leveraging Elixir's concurrency model to handle multiple billing processes simultaneously with fault tolerance.  
 
 ---
 
-⭐️ From [Putra Adiatma](https://github.com/yourusername)
+### **4. E-Commerce Platform with Integrated Payments**  
+
+**Tech Stack:** Elixir Phoenix, PostgreSQL 
+Full-featured e-commerce platform with integrated payment gateway, supporting multiple payment methods and real-time order tracking.  
+
+---
+
+### **5. Ride-Hailing Application**  
+
+**Tech Stack:** Flutter 
+Complete ride-hailing mobile application with real-time GPS tracking, driver matching algorithm, and seamless user experience.  
+
+---
+
+### **6. CRUD Generator for Internal Business Systems**  
+**Tech Stack:** Laravel 12 livewire, MySQL
+
+🔗 https://laragen.my.id  
+
+**Business Problem:**  
+High development cost for repetitive admin and data-management modules.
+
+**Solution Delivered:**  
+- Automatic generation of CRUD modules from database schema  
+- Built-in validation and standardized UI  
+
+**Business Impact:**  
+- Significantly reduced development time  
+- Consistent structure across internal systems  
+- Ideal for data-heavy business applications  
+
+---
+
+
+## 🧠 Core Competencies  
+
+- Business-oriented system design  
+- Transaction-safe backend architecture  
+- Real-time and concurrent processing  
+- Data integrity and validation  
+- Automation of repetitive workflows  
+
+---
+
+## 🛠️ Tools (as Needed)  
+
+Elixir Phoenix · Rust · Flutter · PostgreSQL · MySQL · Tailwind CSS · Git  
+
+*(Tools adapt to the problem, not the other way around.)*
+
+---
+
+## 📫 Let’s Connect  
+
+[LinkedIn – Putra Adiatma](https://www.linkedin.com/in/putra-adiatma-64bit/)  
+
+---
+
+⭐️ *Focused on building systems that actually get used — and keep working as the business grows.*
