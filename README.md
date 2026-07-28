@@ -28,7 +28,7 @@ I work end-to-end: **understanding business processes → translating them into 
 
 ### **1. Lightweight ERP System for Growing Businesses**  
 
-**Tech Stack:** Elixir Phoenix, Rust, PostgreSQL  
+**Tech Stack:** Elixir Phoenix, PostgreSQL  
 🔗 https://bit.ly/4fYh4DJ
 
 **Business Problem:**  
