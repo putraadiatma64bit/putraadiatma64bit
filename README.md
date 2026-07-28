@@ -1,6 +1,6 @@
 # Hi, I’m **Putra Adiatma** 👋  
 
-## 🧭 About Me  
+## About Me  
 
 I help businesses **solve operational and scalability problems** by designing and building **reliable information systems**.  
 
@@ -29,6 +29,7 @@ I work end-to-end: **understanding business processes → translating them into 
 ### **1. Lightweight ERP System for Growing Businesses**  
 
 **Tech Stack:** Elixir Phoenix, Rust, PostgreSQL  
+🔗 https://bit.ly/4fYh4DJ
 
 **Business Problem:**  
 Most ERP systems are **too complex, expensive, and skill-dependent**, making them difficult to adopt by small to mid-sized businesses.  
