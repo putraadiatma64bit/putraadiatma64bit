@@ -29,7 +29,7 @@ I work end-to-end: **understanding business processes → translating them into 
 ### **1. Lightweight ERP System for Growing Businesses**  
 
 **Tech Stack:** Elixir Phoenix, PostgreSQL  
-🔗 Application download : https://bit.ly/4fYh4DJ
+🔗 Download Apps for Windows 10/11 (64-bit) : https://bit.ly/3SC1vJ1
 
 **Business Problem:**  
 Most ERP systems are **too complex, expensive, and skill-dependent**, making them difficult to adopt by small to mid-sized businesses.  
