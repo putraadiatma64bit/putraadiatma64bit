@@ -29,7 +29,7 @@ I work end-to-end: **understanding business processes → translating them into 
 ### **1. Lightweight ERP System for Growing Businesses**  
 
 **Tech Stack:** Elixir Phoenix, PostgreSQL  
-🔗 Download Apps for Windows 10/11 (64-bit) — **Rupiah (IDR)** : https://bit.ly/4wNK7iD
+🔗 Download Apps for Windows 10/11 (64-bit) — **Rupiah (IDR)** : https://bit.ly/4wNK7iD  
 🔗 Download Apps for Windows 10/11 (64-bit) — **Dollar (USD)** : https://bit.ly/4qAJZBy
 
 **Business Problem:**  
