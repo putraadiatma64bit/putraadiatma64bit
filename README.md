@@ -124,7 +124,7 @@ flowchart TD
 - 📊 **Income Statement** — revenue, costs, expenses, and net profit for any period you choose
 - ⚖️ **Trial Balance** — debit/credit balances per account, so you can always confirm the books are balanced
 - 📖 **General Ledger** — the full transaction history behind every account balance
-- 🧾 **Balance Sheet** — a complete snapshot of assets, liabilities, and equity
+- 📊 **Balance Sheet** — a complete snapshot of assets, liabilities, and equity
 - 💹 **Statement of Changes in Equity** — tracks how owner or investor capital moves: contributions, profits, withdrawals, dividends
 - 📅 **Period Closing** — locks transactions, rolls income/expense balances into retained earnings, and opens a clean set of books for the next period
 - 💵 **Dividend Distribution** — allocates profit to investors proportionally and keeps a payment history per stakeholder
