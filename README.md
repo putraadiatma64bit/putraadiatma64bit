@@ -25,47 +25,197 @@ I work end-to-end: **understanding business processes → translating them into 
 ---
 
 # BusinessOS
-### Adaptive Business Operations & Financial Management Platform
 
-**Tools kept simple. Business logic built to bend with you.**
+**Adaptive Business Operations & Financial Management Platform**
 
-BusinessOS isn’t built on stacks of rigid modules with fixed workflows you’re forced to follow. Instead, it gives you a small set of core tools — **Purchasing, Extract, and Sales** — that you can combine to model nearly any kind of business. Whether you run a small retail shop or a multi-branch, multi-investor company, the same tools grow with you.
+> Tools kept simple. Business logic built to bend with you.
 
-Think of it more like a **business toolkit** — similar to a calculator — rather than a traditional ERP. A calculator doesn’t tell you what to compute; it simply provides the tools, and your knowledge decides what you build. BusinessOS follows the same philosophy.
+BusinessOS bukan dibangun di atas tumpukan modul kaku dengan alur kerja tetap yang memaksa Anda mengikutinya. Sebaliknya, BusinessOS memberikan sekumpulan kecil tools inti — **Purchasing**, **Extract**, dan **Sales** — yang bisa Anda kombinasikan untuk memodelkan hampir semua jenis bisnis. Baik Anda menjalankan toko retail kecil maupun perusahaan multi-cabang dengan multi-investor, tools yang sama akan tumbuh bersama bisnis Anda.
 
-> **Easy to start. Deep to master.**
+Anggap ini lebih seperti *business toolkit* — mirip kalkulator — dibanding ERP tradisional. Kalkulator tidak memberitahu Anda apa yang harus dihitung; ia hanya menyediakan alat, dan pengetahuan Anda yang menentukan apa yang dibangun. BusinessOS mengikuti filosofi yang sama.
 
----
-
-## What Makes BusinessOS Different?
-
-Typical enterprise software asks: *"What workflow does your company use?"* — then tries to squeeze you into it.
-
-BusinessOS asks instead: **"What are you trying to achieve? How can these tools help you represent it?"**
-
-We provide the building blocks. Your business knowledge provides the intelligence. Put them together, and you create your own workflow.
-
-If you understand purchasing, sales, manufacturing, expenses, payroll, inventory, costing, revenue, capital, and accounting — you’ll discover powerful capabilities and creative workflows simply by combining the same tools in different ways. Much like a spreadsheet: the more you understand how it works, the more powerful it becomes.
+**Easy to start. Deep to master.**
 
 ---
 
-## Three Core Primitives. Unlimited Combinations.
+## Apa yang Membuat BusinessOS Berbeda?
 
-At the heart of BusinessOS lie just **three fundamental operations**. Instead of a separate module for every possible scenario, these three can be combined to represent retail, wholesale, manufacturing, rentals, services — any business model.
+Software enterprise pada umumnya bertanya: *"Alur kerja apa yang dipakai perusahaan Anda?"* — lalu mencoba memaksa Anda masuk ke dalamnya.
+
+BusinessOS justru bertanya: *"Apa yang ingin Anda capai? Bagaimana tools ini bisa membantu merepresentasikannya?"*
+
+Kami menyediakan building block. Pengetahuan bisnis Anda menyediakan intelijennya. Gabungkan keduanya, dan Anda menciptakan alur kerja Anda sendiri.
+
+Jika Anda memahami purchasing, sales, manufacturing, expenses, payroll, inventory, costing, revenue, capital, dan accounting — Anda akan menemukan kapabilitas yang kuat dan alur kerja kreatif hanya dengan mengombinasikan tools yang sama dengan cara berbeda. Mirip seperti spreadsheet: semakin Anda memahami cara kerjanya, semakin kuat pula kemampuannya.
+
+---
+
+## Tiga Primitif Inti. Kombinasi Tak Terbatas.
+
+Inti dari BusinessOS hanya terdiri dari tiga operasi fundamental. Alih-alih modul terpisah untuk setiap skenario, ketiganya bisa dikombinasikan untuk merepresentasikan retail, wholesale, manufacturing, rental, layanan — model bisnis apa pun.
 
 ```mermaid
 flowchart LR
-    CAP["💰 Capital"] --> PUR["🛒 Purchasing<br/><small>Goods · Raw Materials · Services · Rentals</small>"]
-    PUR --> EXT["📤 Extract<br/><small>Breakdown to retail · Manufacturing inputs<br/>Damaged/Expired · Waste & By-products</small>"]
-    PUR --> SAL["🏷️ Sales<br/><small>Goods · Services · Rentals</small>"]
-    EXT --> SAL
-    SAL --> REV["📈 Revenue"]
+    Capital["💰 Capital"] --> Purchasing["🛒 Purchasing<br/>Goods · Raw Materials<br/>Services · Rentals"]
+    Purchasing --> Extract["📤 Extract<br/>Breakdown to retail · Manufacturing inputs<br/>Damaged/Expired · Waste & By-products"]
+    Extract --> Sales["🏷️ Sales<br/>Goods · Services · Rentals"]
+    Sales --> Revenue["📈 Revenue"]
+    Revenue -.-> Capital
+```
 
-    style CAP fill:#fef3c7,stroke:#d97706,color:#78350f
-    style PUR fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
-    style EXT fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e
-    style SAL fill:#d1fae5,stroke:#059669,color:#064e3b
-    style REV fill:#d1fae5,stroke:#059669,color:#064e3b
+| Primitif | Fungsi |
+|---|---|
+| 🛒 **Purchasing** | Mengubah capital menjadi goods, materials, services, atau leased resources. Menambah inventory, membuat liabilities, atau mencatat expenses secara langsung. |
+| 📤 **Extract** | Mengeluarkan item dari inventory tanpa dianggap sebagai penjualan — breaking bulk, mengeluarkan material untuk produksi, write-off stok kedaluwarsa, mencatat waste atau by-products. |
+| 🏷️ **Sales** | Mengubah goods, services, atau rentals kembali menjadi revenue. Bekerja sama baik untuk menjual produk, booking rental, maupun invoicing layanan. |
+
+Tujuannya bukan membangun modul terpisah untuk setiap skenario — melainkan memberi Anda primitif fleksibel yang bisa merepresentasikan semuanya.
+
+---
+
+## Flexible Pricing yang Menyesuaikan Transaksi Anda
+
+Purchasing dan Sales sama-sama menggunakan pricing engine yang sama. Cukup detail untuk deal komersial yang kompleks, namun tetap simpel untuk transaksi retail sehari-hari.
+
+```mermaid
+flowchart TD
+    A["Product A: Qty × Unit Price"] --> A1["− Item Discount"]
+    B["Product B: Qty × Unit Price"] --> B1["− Item Discount"]
+    A1 --> Sub["Transaction Subtotal"]
+    B1 --> Sub
+    Sub --> TD["− Transaction Discount<br/><i>Order-wide price reduction</i>"]
+    TD --> AC["+ Additional Charges<br/><i>Shipping · Handling · Service Fees</i>"]
+    AC --> Total["✅ Final Transaction Total"]
+```
+
+Terapkan diskon per line item, atau untuk seluruh order. Tambahkan shipping, handling, atau service fee secara terpisah. Catat transaksi secara cash atau credit — logika pricing yang sama berlaku untuk goods, services, maupun rentals.
+
+---
+
+## Setiap Transaksi Mengalir Langsung ke Accounting
+
+Setiap entry Purchasing, Extract, dan Sales tidak hanya "diam" — ia otomatis mengalir ke **Accounting Module**, terus-menerus menghasilkan laporan keuangan standar. Anda juga bisa memposting manual journal entries langsung untuk adjustment, koreksi, atau transaksi khusus.
+
+```mermaid
+flowchart TD
+    Capital["💰 Capital"] --> Purchasing["🛒 Purchasing"]
+    Purchasing --> Extract["📤 Extract"]
+    Extract --> Sales["🏷️ Sales"]
+    Sales --> Revenue["📈 Revenue"]
+
+    Purchasing --> Acc["📚 Accounting Module"]
+    Extract --> Acc
+    Sales --> Acc
+    Revenue --> Acc
+    Manual["✍️ Manual Journal Entries"] --> Acc
+
+    Acc --> IS["Income Statement"]
+    Acc --> TB["Trial Balance"]
+    Acc --> GL["General Ledger"]
+    Acc --> BS["Balance Sheet"]
+    Acc --> SCE["Statement of Changes in Equity"]
+    Acc --> PC["Period Closing"]
+    Acc --> DD["Dividend Distribution"]
+```
+
+### Reports Included
+
+- 📊 **Income Statement** — Revenue, cost, expenses, dan net profit untuk periode berapa pun
+- ⚖️ **Trial Balance** — Saldo debit/kredit per akun untuk memastikan buku tetap balance
+- 📖 **General Ledger** — Riwayat transaksi lengkap di balik setiap saldo akun
+- 🧾 **Balance Sheet** — Snapshot lengkap assets, liabilities, dan equity
+- 💹 **Statement of Changes in Equity** — Melacak pergerakan capital owner/investor: kontribusi, profit, withdrawal, dan dividen
+- 📅 **Period Closing** — Mengunci transaksi, memindahkan saldo income/expense ke retained earnings, dan menyiapkan buku baru untuk periode berikutnya
+- 💵 **Dividend Distribution** — Mengalokasikan profit ke investor secara proporsional, melacak histori pembayaran per stakeholder
+
+Karena setiap entry operasional otomatis diposting, laporan Anda selalu up to date. Manual entries tetap tersedia untuk adjustment di luar alur bisnis standar. Period closing memberi batas finansial yang bersih, dan dividend distribution menghubungkan hasil langsung ke investor.
+
+---
+
+## Ownership & Capital Models
+
+BusinessOS mendukung dua struktur kepemilikan — berjalan di atas core engine yang sama.
+
+### 👤 Sole Proprietorship / Privately Owned
+
+```mermaid
+flowchart TD
+    Owner["👤 Owner's Capital"] --> Ops["Purchasing · Operations · Expenses"]
+    Ops --> Sales["Sales · Revenue"]
+    Sales --> Profit["Profit Calculation"]
+    Profit --> Retained["Retained Profit / Owner Drawings"]
+    Retained -.-> Owner
+```
+
+Memisahkan operasi bisnis dengan jelas dari penarikan dana pribadi, sambil terus melacak performa bisnis yang sebenarnya.
+
+### 💼 Multi-Investor / Partnership
+
+```mermaid
+flowchart TD
+    Investor["💼 Investor Capital"] --> Ops["Purchasing · Operations · Expenses"]
+    Ops --> Sales["Sales · Revenue"]
+    Sales --> Profit["Profit Calculation"]
+    Profit --> Close["Period Closing"]
+    Close --> Alloc["Profit Allocation"]
+    Alloc --> Dividend["Dividend Distribution"]
+    Dividend -.-> Investor
+```
+
+Melacak kontribusi capital, operasi, profitabilitas, period closing, dan distribusi profit lintas beberapa stakeholder dalam satu alur finansial yang berkelanjutan.
+
+---
+
+## The Full Cycle: From Capital to Profit
+
+Ini adalah "denyut jantung" dari platform — capital masuk ke bisnis, mengalir melalui operasi, berubah menjadi profit, dan kembali ke sumbernya.
+
+```mermaid
+flowchart LR
+    Investors["💰 Investors"] -->|Capital In| Biz["⚙️ BusinessOS<br/>Purchase → Extract → Sell"]
+    Biz -->|Period Close| Profit["📈 Profit"]
+    Profit -->|Return to Investors| Dividends["🔁 Dividends"]
+    Dividends -.-> Investors
+```
+
+> Versi animasi dari flow ini tersedia di `erp-flow-simple.html` pada repository.
+
+---
+
+## One Platform. Every Business Model.
+
+Bekerja dengan baik untuk: **Retail · Wholesale · Manufacturing · Services · Rentals · Sole Ownership · Multi-Investor · Multi-Branch · Multi-Division**
+
+Menangani setiap jenis transaksi: **Goods · Services · Rentals · Expenses · Loans · Returns · Production · Payroll · Inventory · Expiry · Waste & By-products · Capital · Revenue · Profit · Dividends · Period Closing**
+
+### Deployment: Standalone atau Multi-Node
+
+- 💻 **Standalone** — Berjalan pada satu PC. Cocok untuk bisnis kecil atau operasi personal.
+- 🌐 **Multi-Node** — Arsitektur server tersentralisasi yang melayani banyak cabang, unit bisnis, atau divisi.
+
+Model operasional yang sama dapat scale secara seamless — dari satu laptop yang digunakan oleh satu pemilik bisnis, hingga jaringan multi-organisasi yang terdistribusi.
+
+---
+
+## Our Philosophy
+
+> Bisnis tidak menjadi lebih sederhana hanya karena software memiliki lebih banyak modul.
+
+BusinessOS dibangun di atas ide yang berlawanan: beberapa tools fundamental, dikombinasikan secara fleksibel, dijaga tetap simpel untuk dioperasikan — namun didukung oleh business logic yang sangat mumpuni.
+
+**Simple on the surface. Flexible underneath. Powerful in the hands of those who truly understand their business.**
+
+---
+
+## Tech Stack
+
+- **Backend:** Elixir Phoenix
+- **Database:** PostgreSQL
+
+## Download
+
+- 🔗 Windows 10/11 (64-bit) — Rupiah (IDR): [Download](https://bit.ly/4wNK7iD)
+- 🔗 Windows 10/11 (64-bit) — US Dollar (USD): [Download](https://bit.ly/4qAJZBy)
 ---
 
 ## 📫 Let’s Connect  
