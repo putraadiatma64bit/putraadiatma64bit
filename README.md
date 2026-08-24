@@ -17,7 +17,7 @@ I work end-to-end: understanding your business processes → translating them in
 - 🔄 Transform manual or fragmented workflows into integrated, unified business systems
 - 💰 Design transaction-critical systems — purchasing, sales, inventory, billing, and financial reporting
 - ⚡ Build capable, high-performance applications that grow smoothly alongside your business
-- 🧩 Cut complexity through clear architecture and standardization — so the system stays simple even as it deepens
+- 🛠️ Cut complexity through clear architecture and standardization — so the system stays simple even as it deepens
 
 > Tools are just means. Solving real business needs is the goal.
 
