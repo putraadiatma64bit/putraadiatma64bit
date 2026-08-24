@@ -180,8 +180,7 @@ flowchart LR
     Dividends -.-> Investors
 ```
 
-> An animated version of this flow is available as [this animated version](https://putraadiatma64bit.github.io/project/).
-
+> An animated version of this flow is available as <a href="https://putraadiatma64bit.github.io/project/" target="_blank">this animated version</a>.
 ---
 
 ## One Platform. Every Business Model.
