@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siklus Modal &amp; Keuntungan ERP</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: 'Segoe UI', system-ui, sans-serif; }
+  .loop-box { aspect-ratio: 900 / 540; }
+  @keyframes pulse-ring { 0%{ box-shadow:0 0 0 0 rgba(217,119,6,.4);} 100%{ box-shadow:0 0 0 14px rgba(217,119,6,0);} }
+  .pulse { animation: pulse-ring 2s ease-out infinite; }
+  .chip { transition: transform .15s ease; }
+  .chip:hover { transform: translateY(-2px); }
+  details > summary { cursor: pointer; list-style:none; }
+  details > summary::-webkit-details-marker { display:none; }
+  details[open] .chev { transform: rotate(90deg); }
+</style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col items-center py-10 px-4">
+
+  <div class="max-w-4xl w-full text-center mb-2">
+    <p class="text-xs font-semibold tracking-widest text-amber-600 uppercase mb-1">Siklus Bisnis</p>
+    <h1 class="text-2xl md:text-3xl font-bold text-slate-900">Dari Modal Investor, Berputar Jadi Keuntungan</h1>
+    <p class="text-sm text-slate-500 mt-2 mb-8">Ikuti titik yang mengalir — begitulah uang bergerak di dalam perusahaan, lalu kembali ke investor.</p>
+  </div>
+
+  <!-- MAIN LOOP DIAGRAM -->
+  <div class="relative w-full max-w-4xl loop-box mt-6" id="stage">
+    <svg id="loopSvg" viewBox="0 0 900 540" class="absolute inset-0 w-full h-full" preserveAspectRatio="none">
+      <path id="loopPath" d="" fill="none" stroke="#e2e8f0" stroke-width="3"></path>
+      <!-- dots injected by JS -->
+    </svg>
+
+    <!-- nodes -->
+    <div class="absolute z-10 flex flex-col items-center" style="left:6%; top:50%; transform:translate(-50%,-50%);">
+      <div class="pulse w-20 h-20 md:w-24 md:h-24 rounded-full bg-amber-500 text-white flex items-center justify-center text-2xl md:text-3xl shadow-lg">💰</div>
+      <div class="mt-2 font-bold text-slate-900 text-sm md:text-base">Investor</div>
+      <div class="text-[11px] md:text-xs text-slate-500">menanam modal</div>
+    </div>
+
+    <div class="absolute z-10 flex flex-col items-center" style="left:50%; top:6%; transform:translate(-50%,-50%);">
+      <div class="w-24 h-24 md:w-28 md:h-28 rounded-full bg-violet-600 text-white flex items-center justify-center text-2xl md:text-3xl shadow-lg font-bold">ERP</div>
+      <div class="mt-2 font-bold text-slate-900 text-sm md:text-base">Perusahaan</div>
+      <div class="text-[11px] md:text-xs text-slate-500">mengelola bisnis</div>
+    </div>
+
+    <div class="absolute z-10 flex flex-col items-center" style="left:94%; top:50%; transform:translate(-50%,-50%);">
+      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-emerald-600 text-white flex items-center justify-center text-2xl md:text-3xl shadow-lg">📈</div>
+      <div class="mt-2 font-bold text-slate-900 text-sm md:text-base">Keuntungan</div>
+      <div class="text-[11px] md:text-xs text-slate-500">pendapatan − biaya</div>
+    </div>
+
+    <div class="absolute z-10 flex flex-col items-center" style="left:50%; top:94%; transform:translate(-50%,-50%);">
+      <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-emerald-500 text-white flex items-center justify-center text-2xl md:text-3xl shadow-lg">🔁</div>
+      <div class="mt-2 font-bold text-slate-900 text-sm md:text-base">Dividen</div>
+      <div class="text-[11px] md:text-xs text-slate-500">dibagi ke investor</div>
+    </div>
+
+    <!-- 3 internal process chips near ERP -->
+    <div class="absolute z-10 flex items-center gap-1.5 md:gap-2" style="left:50%; top:26%; transform:translate(-50%,-50%);">
+      <div class="chip bg-white border-2 border-violet-300 rounded-full px-2.5 py-1 text-[10px] md:text-xs font-semibold text-violet-700 shadow-sm whitespace-nowrap">🛒 Pembelian</div>
+      <span class="text-violet-400 text-xs">→</span>
+      <div class="chip bg-white border-2 border-violet-300 rounded-full px-2.5 py-1 text-[10px] md:text-xs font-semibold text-violet-700 shadow-sm whitespace-nowrap">📤 Ekstrak</div>
+      <span class="text-violet-400 text-xs">→</span>
+      <div class="chip bg-white border-2 border-violet-300 rounded-full px-2.5 py-1 text-[10px] md:text-xs font-semibold text-violet-700 shadow-sm whitespace-nowrap">🏷️ Penjualan</div>
+    </div>
+
+    <!-- segment captions -->
+    <div class="absolute text-[11px] md:text-xs font-medium text-amber-600 text-center" style="left:22%; top:16%; width:150px;">modal masuk ke perusahaan</div>
+    <div class="absolute text-[11px] md:text-xs font-medium text-violet-600 text-center" style="left:78%; top:16%; width:150px;">diproses jadi keuntungan</div>
+    <div class="absolute text-[11px] md:text-xs font-medium text-emerald-600 text-center" style="left:78%; top:82%; width:150px;">sebagian jadi dividen</div>
+    <div class="absolute text-[11px] md:text-xs font-medium text-emerald-600 text-center" style="left:22%; top:82%; width:170px;">dividen kembali ke investor</div>
+  </div>
+
+  <!-- DETAIL TOGGLE -->
+  <div class="max-w-2xl w-full mt-10">
+    <details class="bg-white rounded-xl border border-slate-200 shadow-sm" open>
+      <summary class="flex items-center justify-between px-5 py-3.5">
+        <span class="font-semibold text-slate-800 text-sm">Lihat detail 3 proses di dalam perusahaan</span>
+        <span class="chev text-slate-400 transition-transform">›</span>
+      </summary>
+      <div class="px-5 pb-5 pt-1 grid gap-3 sm:grid-cols-3">
+        <div class="rounded-lg border border-violet-200 bg-violet-50 p-3">
+          <div class="text-xl mb-1">🛒</div>
+          <div class="font-semibold text-violet-800 text-sm mb-1">Pembelian</div>
+          <p class="text-xs text-violet-700 leading-relaxed">Modal dipakai beli barang atau sewa jasa (tunai/kredit). Stok bertambah, modal berkurang.</p>
+        </div>
+        <div class="rounded-lg border border-sky-200 bg-sky-50 p-3">
+          <div class="text-xl mb-1">📤</div>
+          <div class="font-semibold text-sky-800 text-sm mb-1">Ekstrak</div>
+          <p class="text-xs text-sky-700 leading-relaxed">Barang keluar tanpa dijual normal: dijual di harga pokok untuk konversi dari grosir ke eceran dan untuk bahan baku manufacturing, atau dibuang (rusak/kadaluarsa/limbah). Stok berkurang.</p>
+        </div>
+        <div class="rounded-lg border border-emerald-200 bg-emerald-50 p-3">
+          <div class="text-xl mb-1">🏷️</div>
+          <div class="font-semibold text-emerald-800 text-sm mb-1">Penjualan</div>
+          <p class="text-xs text-emerald-700 leading-relaxed">Barang/jasa dijual ke customer (tunai/kredit). Pendapatan masuk, stok berkurang, modal bertambah.</p>
+        </div>
+      </div>
+      <div class="px-5 pb-5 text-xs text-slate-500 leading-relaxed border-t border-slate-100 pt-3">
+        Hasil bersih dari ketiga proses ini dihitung sebagai <b>keuntungan</b>. Sebagian keuntungan dibagikan sebagai <b>dividen</b> ke investor sesuai persentase modal yang mereka tanam — lalu siklus berulang.
+      </div>
+    </details>
+  </div>
+
+<script>
+const svg = document.getElementById('loopSvg');
+const pathEl = document.getElementById('loopPath');
+
+// ellipse loop: left=Investor, top=ERP, right=Keuntungan, bottom=Dividen (clockwise)
+const cx=450, cy=270, rx=390, ry=230;
+const k = 0.5522847498;
+const P = {
+  left:   {x:cx-rx, y:cy},
+  top:    {x:cx, y:cy-ry},
+  right:  {x:cx+rx, y:cy},
+  bottom: {x:cx, y:cy+ry}
+};
+const kx = rx*k, ky = ry*k;
+const d = `M ${P.left.x} ${P.left.y}
+  C ${P.left.x} ${P.left.y-ky}, ${P.top.x-kx} ${P.top.y}, ${P.top.x} ${P.top.y}
+  C ${P.top.x+kx} ${P.top.y}, ${P.right.x} ${P.right.y-ky}, ${P.right.x} ${P.right.y}
+  C ${P.right.x} ${P.right.y+ky}, ${P.bottom.x+kx} ${P.bottom.y}, ${P.bottom.x} ${P.bottom.y}
+  C ${P.bottom.x-kx} ${P.bottom.y}, ${P.left.x} ${P.left.y+ky}, ${P.left.x} ${P.left.y}
+  Z`;
+pathEl.setAttribute('d', d);
+
+const len = pathEl.getTotalLength();
+const NUM_DOTS = 7;
+const dots = [];
+const colorFor = (t) => {
+  if(t < 0.25) return '#f59e0b';       // investor -> ERP : modal masuk (amber)
+  if(t < 0.5)  return '#8b5cf6';       // ERP -> keuntungan : diproses (violet)
+  if(t < 0.75) return '#10b981';       // keuntungan -> dividen (emerald)
+  return '#34d399';                    // dividen -> investor : kembali (light emerald)
+};
+
+for(let i=0;i<NUM_DOTS;i++){
+  const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+  c.setAttribute('r', 6);
+  c.setAttribute('fill', '#f59e0b');
+  svg.appendChild(c);
+  dots.push({ el:c, t: i / NUM_DOTS });
+}
+
+let last = performance.now();
+function tick(now){
+  const dt = (now-last)/1000; last = now;
+  const speed = 0.045; // fraction of loop per second
+  dots.forEach(dot=>{
+    dot.t = (dot.t + speed*dt) % 1;
+    const pt = pathEl.getPointAtLength(dot.t*len);
+    dot.el.setAttribute('cx', pt.x);
+    dot.el.setAttribute('cy', pt.y);
+    dot.el.setAttribute('fill', colorFor(dot.t));
+  });
+  requestAnimationFrame(tick);
+}
+requestAnimationFrame(tick);
+</script>
+</body>
+</html>
