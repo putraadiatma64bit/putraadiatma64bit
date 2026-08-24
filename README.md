@@ -24,102 +24,48 @@ I work end-to-end: **understanding business processes → translating them into 
 
 ---
 
-## 🚀 Selected Projects & Business Impact  
+# BusinessOS
+### Adaptive Business Operations & Financial Management Platform
 
-### **1. Lightweight ERP System for Growing Businesses**  
+**Tools kept simple. Business logic built to bend with you.**
 
-**Tech Stack:** Elixir Phoenix, PostgreSQL  
-🔗 Download Apps for Windows 10/11 (64-bit) — **Rupiah (IDR)** : https://bit.ly/4wNK7iD  
-🔗 Download Apps for Windows 10/11 (64-bit) — **Dollar (USD)** : https://bit.ly/4qAJZBy
+BusinessOS isn’t built on stacks of rigid modules with fixed workflows you’re forced to follow. Instead, it gives you a small set of core tools — **Purchasing, Extract, and Sales** — that you can combine to model nearly any kind of business. Whether you run a small retail shop or a multi-branch, multi-investor company, the same tools grow with you.
 
-**Business Problem:**  
-Most ERP systems are **too complex, expensive, and skill-dependent**, making them difficult to adopt by small to mid-sized businesses.  
-In practice, ERP becomes a *burden* instead of a tool.
+Think of it more like a **business toolkit** — similar to a calculator — rather than a traditional ERP. A calculator doesn’t tell you what to compute; it simply provides the tools, and your knowledge decides what you build. BusinessOS follows the same philosophy.
 
-**Solution Delivered:**  
-- A **lightweight and modular ERP** focused on real business workflows  
-- Simple, intuitive interfaces that **non-technical users can understand and operate**  
-- Core ERP features implemented incrementally, without overwhelming users  
-- High-performance backend for transaction safety and long-term scalability  
-
-**Business Impact:**  
-- ERP adoption becomes **easy and realistic**, not intimidating  
-- Businesses can start small and grow the system naturally  
-- Reduced dependency on highly specialized operators  
-- ERP feels like a **useful, enjoyable set of tools**, not a rigid enterprise  
-
-> This ERP is designed to be **used**, not just implemented.
+> **Easy to start. Deep to master.**
 
 ---
 
-### **2. Subscription-Based Video Conference Platform**  
+## What Makes BusinessOS Different?
 
-**Tech Stack:** Elixir Phoenix, Flutter, PostreSQL
+Typical enterprise software asks: *"What workflow does your company use?"* — then tries to squeeze you into it.
 
-Real-time video conferencing application integrated with payment gateway for seamless subscription and payment processing. 
+BusinessOS asks instead: **"What are you trying to achieve? How can these tools help you represent it?"**
 
----
+We provide the building blocks. Your business knowledge provides the intelligence. Put them together, and you create your own workflow.
 
-### **3. Multi-Process Billing System**  
-
-**Tech Stack:** Elixir Phoenix 
-
-High-performance billing system leveraging Elixir's concurrency model to handle multiple billing processes simultaneously with fault tolerance.  
+If you understand purchasing, sales, manufacturing, expenses, payroll, inventory, costing, revenue, capital, and accounting — you’ll discover powerful capabilities and creative workflows simply by combining the same tools in different ways. Much like a spreadsheet: the more you understand how it works, the more powerful it becomes.
 
 ---
 
-### **4. E-Commerce Platform with Integrated Payments**  
+## Three Core Primitives. Unlimited Combinations.
 
-**Tech Stack:** Elixir Phoenix, PostgreSQL 
+At the heart of BusinessOS lie just **three fundamental operations**. Instead of a separate module for every possible scenario, these three can be combined to represent retail, wholesale, manufacturing, rentals, services — any business model.
 
-Full-featured e-commerce platform with integrated payment gateway, supporting multiple payment methods and real-time order tracking.  
+```mermaid
+flowchart LR
+    CAP["💰 Capital"] --> PUR["🛒 Purchasing<br/><small>Goods · Raw Materials · Services · Rentals</small>"]
+    PUR --> EXT["📤 Extract<br/><small>Breakdown to retail · Manufacturing inputs<br/>Damaged/Expired · Waste & By-products</small>"]
+    PUR --> SAL["🏷️ Sales<br/><small>Goods · Services · Rentals</small>"]
+    EXT --> SAL
+    SAL --> REV["📈 Revenue"]
 
----
-
-### **5. Ride-Hailing Application**  
-
-**Tech Stack:** Flutter 
-
-Complete ride-hailing mobile application with real-time GPS tracking, driver matching algorithm, and seamless user experience.  
-
----
-
-### **6. CRUD Generator for Internal Business Systems**  
-**Tech Stack:** Laravel 12 livewire, MySQL
-
-🔗 https://laragen.my.id  
-
-**Business Problem:**  
-High development cost for repetitive admin and data-management modules.
-
-**Solution Delivered:**  
-- Automatic generation of CRUD modules from database schema  
-- Built-in validation and standardized UI  
-
-**Business Impact:**  
-- Significantly reduced development time  
-- Consistent structure across internal systems  
-- Ideal for data-heavy business applications  
-
----
-
-
-## 🧠 Core Competencies  
-
-- Business-oriented system design  
-- Transaction-safe backend architecture  
-- Real-time and concurrent processing  
-- Data integrity and validation  
-- Automation of repetitive workflows  
-
----
-
-## 🛠️ Tools (as Needed)  
-
-Elixir Phoenix · Rust · Flutter · PostgreSQL · MySQL · Tailwind CSS · Git  
-
-*(Tools adapt to the problem, not the other way around.)*
-
+    style CAP fill:#fef3c7,stroke:#d97706,color:#78350f
+    style PUR fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    style EXT fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e
+    style SAL fill:#d1fae5,stroke:#059669,color:#064e3b
+    style REV fill:#d1fae5,stroke:#059669,color:#064e3b
 ---
 
 ## 📫 Let’s Connect  
