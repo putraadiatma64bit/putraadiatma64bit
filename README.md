@@ -180,7 +180,7 @@ flowchart LR
     Dividends -.-> Investors
 ```
 
-> An animated version of this flow is available as `erp-flow-simple.html` in the repository.
+> An animated version of this flow is available as [this animated version](https://putraadiatma64bit.github.io/project/).
 
 ---
 
