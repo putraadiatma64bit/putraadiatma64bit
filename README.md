@@ -1,26 +1,25 @@
 # Hi, I’m **Putra Adiatma** 👋  
 
-## About Me  
+## About Me
 
-I help businesses **solve operational and scalability problems** by designing and building **reliable information systems**.  
+I help businesses solve operational and scalability challenges by designing and building reliable, practical information systems.
 
-My focus is not on using many technologies, but on **choosing the right architecture and implementation** so systems are:
-- usable in real operations  
-- scalable as the business grows  
-- maintainable in the long term  
+My focus is not on chasing the latest technologies, but on choosing the right architecture and implementation — so the systems I build are:
 
-I work end-to-end: **understanding business processes → translating them into system logic → delivering working software**.
+- ✅ usable in real daily operations
+- 📈 scalable as your business grows
+- 🔧 maintainable and clear in the long term
 
----
+I work end-to-end: understanding your business processes → translating them into simple, powerful system logic → delivering working software that fits you.
 
-## 🎯 What I Do  
+## 🎯 What I Do
 
-- Transform **manual or fragmented business processes** into integrated digital systems  
-- Design **transaction-critical systems** (billing, payments, sales, inventory)  
-- Build **real-time and high-concurrency applications** for growing businesses  
-- Reduce development and operational friction through **automation and system standardization**
+- 🔄 Transform manual or fragmented workflows into integrated, unified business systems
+- 💰 Design transaction-critical systems — purchasing, sales, inventory, billing, and financial reporting
+- ⚡ Build capable, high-performance applications that grow smoothly alongside your business
+- 🧩 Cut complexity through clear architecture and standardization — so the system stays simple even as it deepens
 
-> Programming languages and frameworks are tools — **business outcomes are the goal**.
+> Tools are just means. Solving real business needs is the goal.
 
 ---
 
