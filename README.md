@@ -214,8 +214,8 @@ We built BusinessOS on the opposite idea: a handful of fundamental tools, combin
 
 ## Download
 
-- 🔗 Windows 10/11 (64-bit) — Rupiah (IDR): [Download](https://bit.ly/4ykAw4w)
-- 🔗 Windows 10/11 (64-bit) — US Dollar (USD): [Download](https://bit.ly/4z2gaNf)
+- 🔗 Windows 10/11 (64-bit) — Rupiah (IDR): [Download](https://bit.ly/4Aw4O5E)
+- 🔗 Windows 10/11 (64-bit) — US Dollar (USD): [Download](https://bit.ly/3VXmEP2)
 - 🔗 Convert photos taken on an Android smartphone into text — Windows 10/11 (64-bit): [Download](https://bit.ly/4dVfJMr)
 ---
 
