@@ -214,7 +214,7 @@ We built BusinessOS on the opposite idea: a handful of fundamental tools, combin
 
 ## Download
 
-- 🔗 Windows 10/11 (64-bit) : [Download](https://bit.ly/47QZehi)
+- 🔗 Windows 10/11 (64-bit) : [Download](https://bit.ly/3UIFWaG)
 - 🔗 Convert photos taken on an Android smartphone into text — Windows 10/11 (64-bit): [Download](https://bit.ly/4dVfJMr)
 ---
 
